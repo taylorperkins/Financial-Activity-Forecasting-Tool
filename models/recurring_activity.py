@@ -8,6 +8,8 @@ from models.activity import ActivityModel
 
 
 class RecurringActivityModel(BaseModel):
+    type = 'recurring'
+
     cron_expression: AnyStr
     stop: datetime
     activity: ActivityModel

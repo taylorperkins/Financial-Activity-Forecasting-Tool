@@ -1,0 +1,13 @@
+activities:
+  - type: recurring
+    cron_expression: '0 0 0 1 *'
+    stop: '2019-01-01'
+    activity:
+      date: '2006-01-01'
+      name: Bill
+  - type: recurring
+    cron_expression: '0 0 0 1 *'
+    stop: '2006-01-01'
+    activity:
+      date: '2002-01-01'
+      name: Payment

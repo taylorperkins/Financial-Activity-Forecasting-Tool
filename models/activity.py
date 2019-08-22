@@ -7,6 +7,8 @@ from conf import YEAR_FMT
 
 
 class ActivityModel(BaseModel):
+    type = 'activity'
+
     date: datetime
     name: AnyStr = "Activity"
 
